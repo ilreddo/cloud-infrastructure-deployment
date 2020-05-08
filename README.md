@@ -7,10 +7,12 @@
 
 ### TL:DR
 
-> Project hosted on AWS  
-> Two Jenkins pipelines for Continuous Integration and Continuos Deployment  
-> First pipeline deploys cluster with CloudFormation  
-> Second pipeline pull and build Docker image and deployes on Kubernetes  
+* Project hosted on AWS  
+* Two Jenkins pipelines for Continuous Integration and Continuos Deployment  
+* First pipeline deploys cluster with CloudFormation  
+* Second pipeline pull and build Docker image and deployed on Kubernetes  
+
+---
 
 ## The Project
 
@@ -32,7 +34,9 @@
 **Step 8**: For testing purposes, ask user to redirect the traffic manually to the green controller  
 **Step 9**: Traffic redirected to the green controller. Blue/Green deployment working.  
 
-### To run the project
+---
+
+## To run the project
 
 > Clone the project  
 > Create the first pipeline in Jenkins and run it. Note the cluster ID.  
